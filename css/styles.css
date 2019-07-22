@@ -24,7 +24,7 @@ span {
 
 /* Containers */
 .container-fluid {
-    padding: 7% 15%;
+    padding: 2% 15% 5%;
 }
 
 /* Sections */
@@ -80,7 +80,7 @@ span {
 
 /* Features section */
 .feature-icon {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .feature-title {
@@ -129,7 +129,7 @@ span {
 
 /* goals Section */
 #goals {
-    padding: 100px;
+    padding: 50px;
 }
 
 .price-text {
