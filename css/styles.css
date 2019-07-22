@@ -1,0 +1,167 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8F8F8F;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.section-heading {
+    font-size: 3.0rem;
+    font-weight: 900;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #50b6bb;
+    color: #FFF;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+.title-icon {
+    font-size: 15rem;
+    transform: rotate(25deg);
+    padding-left: 5%;
+}
+
+#title .container-fluid {
+    padding: 3% 15%;
+    text-align: left;
+}
+
+/* Features section */
+.feature-icon {
+    padding-bottom: 30px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 2%;
+    text-align: center;
+}
+
+.icon-footer {
+    color: #FFF;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.icon:hover {
+    color: #a1dd70;
+}
+
+.icon-footer:hover {
+    color: #a1dd70;
+}
+
+.experience {
+    color: #00bdaa;
+}
+
+/* Testimonial Section */
+#skills {
+    background-color: #50b6bb;
+}
+
+.skills-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* goals Section */
+#goals {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.goals-column {
+    padding: 3% 2%;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #50b6bb;
+}
+
+#footer .container-fluid {
+    padding: 10px 0 10px 0;
+}
+
+.paragraph-footer {
+    color: black;
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
