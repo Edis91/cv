@@ -112,7 +112,7 @@ span {
     color: #00bdaa;
 }
 
-/* Testimonial Section */
+/* Skills Section */
 #skills {
     background-color: #222831;
 }
@@ -134,13 +134,21 @@ span {
     padding: 50px;
 }
 
-.price-text {
+.goal-text {
     font-size: 3rem;
     line-height: 1.5;
 }
 
 .goals-column {
     padding: 3% 2%;
+}
+
+.project-column {
+    padding:3% 7%;
+}
+
+.project-align {
+    text-align:left;
 }
 
 /* Footer Section */
