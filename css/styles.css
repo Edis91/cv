@@ -104,6 +104,10 @@ span {
     color: #a1dd70;
 }
 
+.icon {
+    color:#FFF;
+}
+
 .icon-footer:hover {
     color: #a1dd70;
 }
