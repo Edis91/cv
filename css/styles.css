@@ -16,9 +16,7 @@ span {
 }
 
 .section-heading {
-    font-size: 3.0rem;
-    font-weight: 900;
-    line-height: 1.5;
+
 }
 
 /* Containers */
@@ -120,10 +118,13 @@ span {
     background-color: #222831;
 }
 
-.skills-text {
+.heading-color-white {
+  color:#FFF;
+}
+
+.style-text {
     font-size: 3rem;
     line-height: 1.5;
-    color:#FFF;
 }
 
 .testimonial-image {
