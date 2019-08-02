@@ -4,7 +4,8 @@ var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');  // used to actually draw in canvas
 
 canvas.width = $("#lol").width();
-canvas.height = $("#lol").height() - 0.07 * $("#lol").width();
+canvas.height = $("#lol").height() - 0.15 * $("#lol").height();
+
 
 var mouse = {
     x: undefined,
