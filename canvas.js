@@ -1,7 +1,7 @@
 var canvas = document.querySelector('canvas');
 
 var width = window.innerWidth;
-var height= 200;
+var height= 150;
 
 canvas.width = width;
 canvas.height = height;
