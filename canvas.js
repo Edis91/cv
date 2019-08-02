@@ -1,45 +1,10 @@
 var canvas = document.querySelector('canvas');
 
-var width = window.innerWidth;
-var height= 150;
-
-canvas.width = width;
-canvas.height = height;
+canvas.width = $("#lol").width();
+canvas.height = $("#lol").height()-60;
 
 var c = canvas.getContext('2d');  // used to actually draw in canvas
 
-// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
-// c.fillRect(100, 100, 100, 100);
-// c.fillStyle = 'rgba(0, 0, 255, 0.5)';
-// c.fillRect(400, 100, 100, 100);
-// c.fillStyle = 'rgba(0, 255, 0, 0.5)';
-// c.fillRect(300, 300, 100, 100);
-// console.log(canvas);
-
-// Line
-// c.beginPath();
-// c.moveTo(50,300);       //where we bigin drawing line
-// c.lineTo(300,100);      // points for line
-// c.lineTo(400,300);      // points for line
-// c.strokeStyle = "red";
-// c.stroke();             // draw those lines
-
-// Arc / Circle
-
-// c.beginPath();
-// c.arc(300, 300, 30, 0, Math.PI *2, false);  //x,y, radius, radian start, radiantt end, clockwise
-// c.strokeStyle = 'blue';
-// c.stroke();
-
-// for (i = 0; i < 255; i++) {
-//     var x = Math.random()*window.innerWidth;
-//     var y = Math.random()*window.innerHeight;
-//
-//     c.beginPath();
-//     c.arc(x, y, 30, 0, Math.PI *2, false);  //x,y, radius, radian start, radiantt end, clockwise
-//     c.strokeStyle = color[randomNumber];
-//     c.stroke();
-// }
 var mouse = {
     x: undefined,
     y: undefined
@@ -61,13 +26,11 @@ window.addEventListener('mousemove',
     function(event){
     mouse.x = event.x;
     mouse.y = event.y;
-    console.log(mouse);
 });
 
 window.addEventListener('resize', function() {
-    canvas.width = width;
-    canvas.height = height;
-
+    canvas.width =$("#lol").width();
+    canvas.height =$("#lol").height();
     init();
 });
 
