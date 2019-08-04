@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: #8F8F8F;
+    padding-left:5% ;
+    padding-right:5%;
 }
 
 span {
