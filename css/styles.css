@@ -26,10 +26,6 @@ section {
     position:relative;
 }
 
-.section-heading {
-
-}
-
 /* Containers */
 .container-fluid {
     padding: 2% 15% 5%;
@@ -40,6 +36,10 @@ section {
     background-color: #222831;
     color: #FFF;
 
+}
+
+.other-section {
+    background-image: -webkit-linear-gradient(45deg, #ecfcff 50%, #E4E9FD 50%);
 }
 
 /* Headings */
